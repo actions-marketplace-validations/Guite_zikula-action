@@ -223,7 +223,7 @@ if [ "$TOOLS" = "all" ] || [[ "$TOOLS" == *",phpunit-bridge,"* ]]; then
 fi
 
 if [ "$TOOLS" = "all" ] || [[ "$TOOLS" == *",security-checker,"* ]]; then
-    echo "Security: Sensiolabs"
+    echo "Security checker"
     # see https://github.com/fabpot/local-php-security-checker
     /usr/bin/local-php-security-checker
 fi
