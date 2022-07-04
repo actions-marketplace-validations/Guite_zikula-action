@@ -17,7 +17,7 @@ RUN apk update && apk upgrade && apk --no-cache add bash build-base autoconf mys
 
 # see https://github.com/fabpot/local-php-security-checker/issues/11
 # and https://github.com/fabpot/local-php-security-checker/issues
-RUN wget -O local-php-security-checker https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.3/local-php-security-checker_2.0.3_linux_amd64 \
+RUN wget -O local-php-security-checker https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.4/local-php-security-checker_2.0.4_linux_amd64 \
   && mv local-php-security-checker /usr/bin/local-php-security-checker \
   && chmod +x /usr/bin/local-php-security-checker
 
